@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta author="Stipo Margić" />
+    <meta descriptiopn="Project for college..." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Loan Calculator</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="" alt="avatar" />
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="calculator.html">Loan calculator</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <!-- Ikona -->
+      </button>
+      <h1>Cheapest Loans</h1>
+
+      <p>
+        Want loan? Get cheapest loan with us!
+      </p>
+
+      <a href="index.html"
+        ><button class="cta-btn" id="open">Go on homepage</button></a
+      >
+    </header>
+
+    <div class="container-calculator">
+      <div class="calculator">
+        <div class="inputs">
+          <input
+            type="text"
+            id="money"
+            class="money"
+            placeholder="Type amount..."
+          />
+          <input
+            type="text"
+            id="months"
+            placeholder="Type months..."
+            class="months"
+          />
+        </div>
+
+        <button type="submit" id="calculate" class="calculate">
+          Calculate now
+        </button>
+
+        <p>
+          You want to loan <span id="pmoney">0</span>$. And you need to pay
+          <span id="payback">0</span>$ in <span id="pmonths">0</span> months.
+        </p>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="footer-text">
+        This is made by <span class="author">Stipo Margić</span>. &copy;
+        <span id="year"></span> year.
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -133,3 +133,47 @@ button:focus {
   max-width: 100%;
   width: 800px;
 }
+
+.container-calculator {
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  margin: 220px 0;
+}
+
+.inputs {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  padding-bottom: 25px;
+}
+
+.money {
+  width: 74%;
+}
+
+.months {
+  width: 25%;
+}
+
+input[type='text'] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+}
+
+.calculate {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.calculator p {
+  text-align: center;
+}
