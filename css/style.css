@@ -142,8 +142,23 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
+.alert {
+  position: absolute;
+  background-color: rgb(255, 145, 145);
+  top: 150px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  opacity: 0;
+}
+
+.alert.show {
+  opacity: 1;
+}
 .calculator {
   margin: 220px 0;
 }
@@ -162,7 +177,7 @@ button:focus {
   width: 25%;
 }
 
-input[type='text'] {
+input[type='number'] {
   padding: 12px 20px;
   margin: 8px 0;
   border-radius: 5px;
